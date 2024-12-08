@@ -19,3 +19,9 @@ valor_do_bonus = CONSTANTE_BONUS + salario_usuario * bonus_usuario
 print(f"O usuario {nome_usuario} possui o bonus de {valor_do_bonus}")
 
 # Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
+
+# - Não há conferência do tipo de dados inserido
+# - Não há conferência da coerência do dado inserido
+# - O nome pode não estar na formatação correta do banco de dados (pode não nos dizer nada)
+# - O salário pode ser negativo ou zero
+# - O bônus pode ser zero ou negativo
