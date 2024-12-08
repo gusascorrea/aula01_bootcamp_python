@@ -1,0 +1,1 @@
+print('Número de caracteres:',len(input('Digite seu nome: ')))
